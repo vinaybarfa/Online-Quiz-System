@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/questiondb
     username: root
-    password: root
+    password: "{cipher}c746f929b0d80f8c3aa7f2999086286991debec5ae221515579647f95f635a05"
 
 #server.servlet.context-path=/api/v1
 
@@ -14,8 +14,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: vinaybarfa03@gmail.com
-    password: usna fxko oedr vurj
+    username: "{cipher}f294943648ba862d8ee153d800e689526eb65af36ffbdda210df216dc5f74b1fc3ed5529c890c3d145ceb28d5cb6d67e"
+    password: "{cipher}81cb69a0e7cca28101787cf57a15b908b86ef40336096b3094066177f2beca13539f5d791fdd317b6dce03faebd4366d"
     properties:
       mail:
         smtp:
@@ -36,5 +36,5 @@ spring:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
 jwt:
-  secretKey: jvmlfmlcdkfnkdcvkddleoremcmvvdpasmfcvcmsdmkslcmrngnfmdgfodkflsmdfmgbglmfmlmbbml
+  secretKey: "{cipher}71983f48d0e83b138d56629ba68b4564495378d4cb160be9f7cb1cbb2ffac9aa0a6abb8584cf557674fe3a17785a4573bcc275fe72909d0f8f90efde711fcb01a9a5ee4a82a58f65be400f466c3eea45404866c29bf45a55f173dda15ec627a4"
 
